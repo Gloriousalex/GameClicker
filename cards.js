@@ -2,7 +2,7 @@ const russians = [
       {
       id: 0,
       level: 1,
-      clickcounts: 10, 
+      clickcounts: 5, 
       cards: [
         {
         info: 'На картинке всё сказано',
@@ -35,7 +35,7 @@ const russians = [
       name: 'star_3.jpg',
     }
   ],
-    clickcounts: 15, 
+    clickcounts: 10, 
 },
 {
   id: 2,
@@ -54,14 +54,14 @@ const russians = [
     name: 'propagandon_3.jpg',
   }
 ],
-  clickcounts: 20, 
+  clickcounts: 15, 
 },
 {
   id: 3,
   level: 4,
   cards: [
     {
-    info: 'Виновник всего - путлер',
+    info: 'Главное пуйло - путлер',
     name: 'presic_1.jpg',
   },
   {
@@ -73,7 +73,7 @@ const russians = [
     name: 'presic_3.jpg',
   }
 ],
-  clickcounts: 25, 
+  clickcounts: 20, 
 },
 {
   id: 4,
@@ -92,6 +92,6 @@ const russians = [
     name: 'boss_3.jpg',
   }
 ],
-  clickcounts: 30, 
+  clickcounts: 25, 
 }
 ];

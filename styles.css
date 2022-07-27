@@ -1,6 +1,6 @@
 body {
   background-color: rgba(214, 192, 170, 0.226);
-  background-image: url(./IMG/mos_large.jpg);
+  background-image: url(./IMG/mos_small.jpg);
   background-repeat:no-repeat;
   background-size: 100%;
 }
@@ -9,11 +9,15 @@ header {
   width           : 95%;
   height          : 70px;
   margin          : auto;
-  background-color: #ff5420;  
+  background-color: #fcffe129;  
   text-align      : center;
   display         : flex;
-  justify-content : center;
+  justify-content : space-around;
   border-radius   : 10px;
+}
+
+header h1 {
+  margin-top: 5px;
 }
 
 /* Form style */
@@ -30,7 +34,7 @@ header {
   padding: 15px;
   border-radius   : 10px;
   border-color    : #ecd7ffcc;
-  background-color: #cbf7ffbc;
+  background-color: #fffbf2d2; 
   margin-top      : 40px;
   box-shadow      : 5px 5px 9px rgba(0, 0, 0, 0.65);
   width        : 400px;
@@ -110,6 +114,13 @@ margin: auto auto auto 10px;
   opacity: 0.6;
 }
 
+#smallwords {
+  padding-top: 20px;
+  font-size: 12px;
+  color: #474747;
+  margin-left: 10px;
+}
+
 /* sideBar */
 
 .sideBar {
@@ -118,7 +129,7 @@ margin: auto auto auto 10px;
   right           : 60px;
   width           : 300px;
   height          : auto;
-  background-color: #e4dfcc;
+  background-color: #fffbf2e1;
   border-radius   : 20px;
   border-width    : 1px;
   border-style    : solid;
@@ -160,19 +171,29 @@ display: block;
 width: 550px; 
 height: fit-content;
 margin: 30px 34%;
-background-color: #e4dfcc;
+background-color: #fffbf2b8;
 border-radius: 10px;
 }
+
 h1 {
   text-align: center;
   padding-top: 15px;
   margin-bottom: 10px;
 }
+
 #imageRus {
 /* position: relative; */
 height: 75%;
 width: 80%;
 margin: 10px 10% 10px 10%;
+}
+
+#imageRus:hover {
+  cursor: url(Axe.png) 16 1, pointer;
+}
+
+.rotated {
+  transform: rotate(5deg);
 }
 
 #counter {
@@ -196,4 +217,15 @@ margin: 10px 10% 10px 10%;
 .Counterclass p {
   font-size: 24px;
   margin-top: 5%;
+}
+
+.victory {
+  text-align:left;
+  margin-left: 20px;
+  padding-top: 0px;
+  padding-bottom: 10px;
+}
+.victory p {
+  text-align: center;
+  color: #474747;
 }
