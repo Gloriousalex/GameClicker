@@ -46,6 +46,14 @@ function addRightSideBar (userData,gameData) { //Adding Right Side Bar, get item
   sideBar.insertAdjacentHTML('afterbegin',sideBarValue); 
 }
 
+function getRandomPosition (image) {
+  upSide = randomize(60);
+  rightSide = randomize(75);
+  // image.style.padding = `${upSide}% 0% 0% ${rightSide}%`;
+  image.style.left = `${rightSide}%`;
+  image.style.top = `${upSide}%`;
+}
+
 function registrationStart () { //Registration Form
   const form = document.querySelector('#form');
   const rightBar = document.querySelector('.sideBar');
@@ -78,7 +86,9 @@ function playGame (gameData, userData) { //Main Game function
 
     const rusTerValue = `<div class ="imageField">
     <h1>${gameData.cards.info}</h1>
+    <div class = "randomPositionImage">
     <img src ="./IMG/${gameData.cards.name}" id="imageRus">
+    </div>
     <div id="counter">
     <div class = "Counterclass">
     <p>Clicks left: <strong id="clickcount">${gameData.clickcounts}</strong></p>
@@ -95,13 +105,15 @@ function playGame (gameData, userData) { //Main Game function
     const imageClicker   = document.querySelector('#imageRus');
     const newTextCounter = document.querySelector('#clickcount');
 
+    getRandomPosition(imageClicker)
+
     imageClicker.addEventListener('click', () => { //main clicker - listener
       imageClicker.classList.add('rotated')
 
       setTimeout(() => {
         imageClicker.classList.remove('rotated');
-      }, 10);
-
+      }, 20);
+      getRandomPosition(imageClicker)
       clickcounts--;
       newTextCounter.textContent = `${clickcounts}`;
 

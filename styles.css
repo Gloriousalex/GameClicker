@@ -167,12 +167,17 @@ h3 {
 }
 
 .imageField {  
+position: absolute;
 display: block;
 width: 550px; 
 height: fit-content;
 margin: 30px 34%;
 background-color: #fffbf2b8;
 border-radius: 10px;
+}
+
+.randomPositionImage {
+  height: 300px;
 }
 
 h1 {
@@ -182,10 +187,7 @@ h1 {
 }
 
 #imageRus {
-/* position: relative; */
-height: 75%;
-width: 80%;
-margin: 10px 10% 10px 10%;
+  position: relative;
 }
 
 #imageRus:hover {

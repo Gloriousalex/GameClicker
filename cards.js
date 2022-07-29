@@ -6,15 +6,15 @@ const russians = [
       cards: [
         {
         info: 'На картинке всё сказано',
-        name: 'patriot_1.jpg',
+        name: 'patriot_1.png',
       },
       {
         info: 'Типичное русское быдло',
-        name: 'patriot_2.jpg',
+        name: 'patriot_2.png',
       },
       {
         info: 'Типичное русское быдло',
-        name: 'patriot_3.jpg',
+        name: 'patriot_3.png',
       }
     ],      
   },
@@ -24,15 +24,15 @@ const russians = [
     cards: [
       {
       info: 'Пропагандонка Чичерина',
-      name: 'star_1.jpg',
+      name: 'star_1.png',
     },
     {
       info: 'Любимец ватника - Лепс',
-      name: 'star_2.jpg',
+      name: 'star_2.png',
     },
     {
       info: 'Золотой рот россии',
-      name: 'star_3.jpg',
+      name: 'star_3.png',
     }
   ],
     clickcounts: 10, 
@@ -43,15 +43,15 @@ const russians = [
   cards: [
     {
     info: 'Пропагандонка Скабеева',
-    name: 'propagandon_1.jpg',
+    name: 'propagandon_1.png',
   },
   {
     info: 'Жена Соловьева и просто неадекватка Симоньян',
-    name: 'propagandon_2.jpg',
+    name: 'propagandon_2.png',
   },
   {
     info: 'Рупор мысли путлера Соловьев',
-    name: 'propagandon_3.jpg',
+    name: 'propagandon_3.png',
   }
 ],
   clickcounts: 15, 
@@ -62,15 +62,15 @@ const russians = [
   cards: [
     {
     info: 'Главное пуйло - путлер',
-    name: 'presic_1.jpg',
+    name: 'presic_1.png',
   },
   {
     info: 'Прихлебатель пуйла',
-    name: 'presic_2.jpg',
+    name: 'presic_2.png',
   },
   {
     info: 'Троянский конь в Европе',
-    name: 'presic_3.jpg',
+    name: 'presic_3.png',
   }
 ],
   clickcounts: 20, 
@@ -81,15 +81,15 @@ const russians = [
   cards: [
     {
     info: 'Босс игры - Чмоня!',
-    name: 'boss_1.jpg',
+    name: 'boss_1.png',
   },
   {
     info: 'Финальный босс - кум путлера',
-    name: 'boss_2.jpg',
+    name: 'boss_2.png',
   },
   {
     info: 'Конец игры - Медведчук в окружении',
-    name: 'boss_3.jpg',
+    name: 'boss_3.png',
   }
 ],
   clickcounts: 25, 
