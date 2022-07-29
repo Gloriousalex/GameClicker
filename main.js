@@ -159,7 +159,7 @@ function victory (gameData, userData) {
     againBtn.addEventListener('click', () => { //Не перезапускает, так как уже удалено геймдата
       const imageData = document.querySelector('.imageField');
       imageData.remove();
-      localStorage.removeItem('UserData');
+      // localStorage.removeItem('UserData');
       localStorage.removeItem('gameData');
       run();
     })
